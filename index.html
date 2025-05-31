@@ -1,10 +1,111 @@
-<DOCTYPE html!>
-  <html>
-    <head>
-      <title>Kishor Karthik</title>
-    </head>
-    <body>
-      <p>I build what's useful, cool and matters.</p>
-    </body>
-  </html>
-  
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kishor Karthik</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Courier New', monospace;
+      background-color: #fff;
+      color: #000;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+      padding: 1rem;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+
+    .menu-icon {
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    main {
+      flex-grow: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      text-align: right;
+    }
+
+    .intro {
+      font-size: 1.2rem;
+      line-height: 1.8rem;
+    }
+
+    footer {
+      border-top: 1px solid #000;
+      padding-top: 1rem;
+      text-align: center;
+    }
+
+    .social-icons {
+      margin: 0.5rem 0;
+    }
+
+    .social-icons a {
+      margin: 0 10px;
+      font-size: 1.5rem;
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .copyright {
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 600px) {
+      .intro {
+        font-size: 1rem;
+        line-height: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>Kishor Karthik</div>
+    <div class="menu-icon">&#9776;</div>
+  </header>
+
+  <main>
+    <div class="intro">
+      Hello,<br />
+      I build what’s cool<br />
+      useful and matters.
+      <br />
+      <br />
+    </div>
+  </main>
+
+  <footer>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/kishorkarthik_?igsh=MWdxa3VmNDJlZXR5Yg==" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://x.com/Kishorkarthik_?t=gfy2MXjRrjinYdV-sm6S8g&s=09" target="_blank">
+        <i class="fab fa-x-twitter"></i>
+      </a>
+    </div>
+    <div class="copyright">© 2025 Kishor Karthik</div>
+  </footer>
+
+</body>
+</html>
