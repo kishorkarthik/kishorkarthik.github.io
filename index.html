@@ -36,21 +36,18 @@
       justify-content: space-between;
       align-items: stretch;
       padding: 1rem;
+      position: relative;
     }
 
     .intro {
-      align-self: flex-start;
       font-size: 1.2rem;
       line-height: 1.8rem;
     }
 
     .image-container {
       display: flex;
-      flex-direction: column;
       justify-content: flex-end;
       align-items: flex-end;
-      width: 100%;
-      margin-bottom: 0;
     }
 
     .profile-img {
@@ -81,22 +78,31 @@
       main {
         flex-direction: column;
         align-items: stretch;
-        justify-content: space-between;
+        padding: 1rem;
       }
 
       .intro {
         align-self: flex-start;
-        margin-bottom: 1rem;
-        margin-top: 3rem;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        z-index: 2;
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 0.5rem;
+        border-radius: 0.5rem;
       }
 
       .image-container {
-        align-items: flex-end;
-        margin-bottom: 0rem;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        padding: 1rem;
       }
 
       .profile-img {
-        max-width: 80%;
+        max-width: 60vw;
+        height: auto;
       }
     }
   </style>
