@@ -1,4 +1,3 @@
 # kishorkarthik.github.io
-I build what's cool, useful and matters.
-
+Be competent. Period.
 https://kishorkarthik.github.io
