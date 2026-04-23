@@ -1,39 +1,74 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000">
   <title>Home ∙ Kishor Karthik Ramalingam</title>
   <meta name="description" content="I am currently pursuing my BS in Data Science and Applications from the Indian Institute of Technology, Madras.">
   <link rel="canonical" href="https://kishorkarthik.github.io/index.html">
-  <style>
-    @import url('fonts.googleapis.com');
-
-    body {
-      font-family: 'Poppins', sans-serif;
-    }
-    .alpha {
-      display: flex:
-      width: 100%;
-      justify-content: flex-end;
-      border: 1px solid white;
-    }
-
-    .alpha p, .alpha ul {
-      margin-left: 10px;
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"> 
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="style.css">
   </head>
 <body>
-   <main>
-    <div class="alpha">
-      <p>Kishor Karthik Ramalingam</p>
-      <ul>
-      <li><a href="https://kishorkarthik.github.io/about.html" >About</a></li>
-      <li><a href="https://kishorkarthik.github.io/projects.html">Projects</a></li>
-      <li><a href="https://kishorkarthik.github.io/bookshelf.html" >Bookshelf</a</li>
-      
-      </ul>
+  <nav class="navbar fixed-top" style="background-color: #000000;">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">[HOME]</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header" style="background-color: #000000;">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body" style="background-color: #000000;">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">> Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="bookshelf.html">> Bookshelf</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">> Contact</a>
+          </li> 
+        </ul>  
+      </div>
     </div>
-  </main>
+    </div>
+  </nav>
+
+<main class="d-flex flex-column vh-100 ms-1">
+  <div class="container flex-grow-1 d-flex align-items-center"></div>
+
+  <div class="container flex-grow-1 d-flex align-items-center">
+    <div class="row w-100">
+      <div class="col">
+        <p class="text-start ms-3">> print(greeting_msg)</p>
+        <p class="text-start ms-3" style="font-size: 25px;"> Hello, I'm Kishor Karthik.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container flex-grow-1 d-flex align-items-end mb-5">
+    <div class="row w-100">
+      <div class="col">
+        <p class="text-start ms-3">> print(current_status)</p>
+        <p class="text-start ms-3">- I am currently pursuing my BS in Data Science and Applications at the Indian Institute of Technology, Madras.</p>
+      </div>
+    </div>
+  </div>
+
+
+</main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>
