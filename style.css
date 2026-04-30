@@ -13,7 +13,7 @@ body, container-fluid {
     a:visited { color: #ffffff !important;}
     a:active { color: #ffffff !important;}
     a:hover { color: #ffffff !important;}
-
+    
 
     .navbar-toggler-icon {
        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
@@ -40,7 +40,7 @@ body, container-fluid {
     }
 
     .hero-title { font-size: 20px; font-weight: 800; }
-    .hero-sub { font-size: 15px; }
+    .hero-sub { font-size: 20px; }
     .para-s { font-size: 15px; }
 
   /* Desktop Viewport (992px and up) */
@@ -74,3 +74,12 @@ body, container-fluid {
     background-size: 12% 100%;
   }
   }
+
+  .responsive-fs {
+    font-size: 20px; 
+  }
+
+  @media (min-width: 992px) {
+    .responsive-fs {
+      font-size: 16px;
+    }}
