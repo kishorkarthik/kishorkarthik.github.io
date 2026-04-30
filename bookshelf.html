@@ -15,58 +15,67 @@
   <link rel="stylesheet" href="style.css">
   </head>
 <body>
-   <nav class="navbar fixed-top" style="background-color: #000000;">
-    <div class="container-fluid">
-    <a class="navbar-brand" href="#">[BOOKSHELF]</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+   <nav class="navbar fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-light fs-6 ms-3" href="index.html">kishor karthik</a>
+
+    <div class="d-none d-lg-flex flex-grow-1 justify-content-between align-items-center">
+      <!-- Centered Links -->
+      <ul class="navbar-nav flex-row gap-5 mx-auto pe-5">
+        <li class="nav-item fw-light"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item fw-light"><a class="nav-link" href="#">Resume</a></li>
+        <li class="nav-item fw-light"><a class="nav-link" href="bookshelf.html">Bookshelf</a></li>
+        
+      </ul>
+      <!-- Right-aligned Link -->
+      <ul class="navbar-nav pe-3">
+        <li class="nav-item fw-light"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!--MOBILE TOGGLER-->
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-      <div class="offcanvas-header" style="background-color: #000000;">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+
+    <!--MOBILE OFFCANVAS-->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" style="background-color: #000;">
+      <div class="offcanvas-header">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
-      <div class="offcanvas-body" style="background-color: #000000;">
-        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">> Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="bookshelf.html">> Bookshelf</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">> Contact</a>
-          </li> 
-        </ul>  
-      </div>
-    </div>
-    </div>
-  </nav>
-   
-   <main class="d-flex flex-column vh-50 ms-1 pt-5">
-    <div class="container flex-grow-1 d-flex align-items-center pt-5">
-    <div class="row w-100">
-      <div class="col">
-        <p class="text-start ms-3">> print(briefing_msg)</p>
-        <p class="text-start ms-3">- This list reflects the books that have guided my thinking at different points in time. Each one has contributed something — clarity, direction, or a shift in perspective. I’ve gathered them here as a personal reference and as a record of ideas that continue to shape how I learn and work.</p> <br>
-        <p class="text-start ms-3">- If you like books, you may like this</p>
-        <ul class="liststyle ms-5">
-        <li><p>> print(*books, sep="/n")</p></li>
-        <li class="pb-3"><a href="https://books.google.co.in/books/about/Zero_to_One.html?id=Owc2nQEACAAJ&redir_esc=y" >[00] Zero to One: Notes on Startups, or How to Build the Future</a></li>
-        <li class="pb-3"><a href="https://books.google.co.in/books/about/High_Output_Management.html?id=3j8si29hddwC" >[01] High Output Management</a></li>
-        <li class="pb-3"><a href="https://www.google.co.in/books/edition/An_Astronaut_s_Guide_to_Life_on_Earth/ymqqXuGFL9sC?hl=en&gbpv=0" >[02] An Astronaut's Guide To Life On Earth</a></li>
-        <li class="pb-3"><a href="https://www.google.co.in/books/edition/The_Art_of_Spending_Money/xllYEQAAQBAJ?hl=en&gbpv=0" >[03] The Art of Spending Money: Simple choices for a Richer Life</a></li>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="bookshelf.html">Bookshelf</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
         </ul>
       </div>
     </div>
   </div>
+</nav>
+  
+  <div class="bg-lines"></div>
+  <div class="pt-5"></div>
 
-    
-     
-    
+   <main class="d-flex flex-column vh-100  pt-5">
+    <div class="container-fluid pt-5">
+    <div class="row w-100">
+      <div class="col-lg-8">
+        <p class="para-s ms-3">This list reflects the books that have guided my thinking at different points in time. Each one has contributed something — clarity, direction, or a shift in perspective. I’ve gathered them here as a personal reference and as a record of ideas that continue to shape how I learn and work.</p> <br>
+        <p class="para-s ms-3">If you like books, you may like this</p>
+        <ul class=" ms-5 pt-5 b-sub">
+        <li class="pb-3"><a href="https://books.google.co.in/books/about/Zero_to_One.html?id=Owc2nQEACAAJ&redir_esc=y" > Zero to One: Notes on Startups, or How to Build the Future</a></li>
+        <li class="pb-3" ><a href="https://books.google.co.in/books/about/High_Output_Management.html?id=3j8si29hddwC" >High Output Management</a></li>
+        <li class="pb-3"><a href="https://www.google.co.in/books/edition/An_Astronaut_s_Guide_to_Life_on_Earth/ymqqXuGFL9sC?hl=en&gbpv=0" >An Astronaut's Guide To Life On Earth</a></li>
+        <li class="pb-3"><a href="https://www.google.co.in/books/edition/The_Art_of_Spending_Money/xllYEQAAQBAJ?hl=en&gbpv=0" >The Art of Spending Money: Simple choices for a Richer Life</a></li>
+        </ul>
+      </div>
+    </div>
+    </div>   
   </main>
+
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 </body>
