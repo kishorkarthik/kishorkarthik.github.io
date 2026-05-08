@@ -5,6 +5,7 @@ body, container-fluid {
       color: #ffffff !important;
       font-family: "JetBrains Mono", monospace;
       font-optical-sizing: auto;
+      font-size: 15px;
       font-weight: 800;
       margin-left: 5%;
     }
@@ -41,14 +42,14 @@ body, container-fluid {
 
     .hero-title { font-size: 20px; font-weight: 800; }
     .hero-sub { font-size: 20px; }
-    .para-s { font-size: 15px; }
+    .para-s { font-size: 15px;}
     .para-n {font-size: 15px; font-weight: 400;}
 
   /* Desktop Viewport (992px and up) */
   @media (min-width: 992px) {
     .hero-title { font-size: 32px; }
     .hero-sub { font-size: 32px; }
-    .para-s { font-size: 20px; }
+    .para-s { font-size: 18px; }
   }
 
    /* The Background Layer */
@@ -82,5 +83,5 @@ body, container-fluid {
 
   @media (min-width: 992px) {
     .responsive-fs {
-      font-size: 16px;
+      font-size: 15px;
     }}
