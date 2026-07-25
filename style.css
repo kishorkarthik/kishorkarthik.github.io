@@ -1,21 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 body, container-fluid { 
-      background-image: linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px);
-      background-size: 25% 100%;
-      background-color: black;
-      color: #ffffff !important;
-      font-family: "JetBrains Mono", monospace;
+      background-color: #FCF9F4;
+      color: black !important;
+      font-family: "Montserrat", sans-serif;
       font-optical-sizing: auto;
       font-size: 15px;
-      font-weight: 600;
+      font-weight: 400;
       margin-left: 5%;
+      margin-right: 5%;
     }
 
-    a:link { color: #ffffff !important; }
-    a:visited { color: #ffffff !important;}
-    a:active { color: #ffffff !important;}
-    a:hover { color: #ffffff !important;}
+    a:link { color: #000000;text-decoration: none; }
+    a:visited { color: #000000; text-decoration: none;}
+    a:active { color: #000000;text-decoration: none;}
+    a:hover { color: #000000;text-decoration: none;}
     
-
+    .navbar {background-color: #FCF9F4;}
+    
     .navbar-toggler-icon {
        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23ffffff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     }
@@ -30,17 +34,7 @@ body, container-fluid {
         padding: 0%;
     }
 
-    .blink {
-  animation: blink-animation 1s steps(2, start) infinite;
-    }
-
-    @keyframes blink-animation {
-       to {
-             visibility: hidden;
-          }
-    }
-
-    .hero-title { font-size: 20px; font-weight: 800; }
+    .hero-title { font-size: 20px; font-weight: 400; }
     .hero-sub { font-size: 20px; }
     .para-s { font-size: 15px;}
     .para-n {font-size: 15px; font-weight: 400;}
@@ -53,14 +47,14 @@ body, container-fluid {
   }
 
    /* The Background Layer */
-  .bg-lines {
+ /* .bg-lines {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     z-index: -1; 
-    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.08) 1px, transparent 1px);
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1) 1px, transparent 1px);
     background-size: 25% 100%;
   }
 
@@ -75,19 +69,40 @@ body, container-fluid {
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
     background-size: 10% 100%;
   }
-  }
+  } */
 
   .line-separator {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   width: 100%;
 }
 
 
   .responsive-fs {
-    font-size: 18px; 
+    font-size: 16px; 
   }
 
-  @media (min-width: 992px) {
-    .responsive-fs {
-      font-size: 15px;
-    }}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler p {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 18
+}
+
+.linked span {
+   vertical-align: middle;
+}

@@ -9,14 +9,14 @@
   <link rel="icon" type="image/png" href="assets/Favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=link" />
   
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   
   <link rel="stylesheet" href="style.css">
   </head>
 <body>
-   <nav class="navbar fixed-top bg-black line-separator">
+   <nav class="navbar fixed-top  line-separator">
   <div class="container-fluid">
     <a class="navbar-brand fw-light responsive-fs ms-3" href="index.html">Kishor Karthik</a>
 
@@ -35,12 +35,12 @@
     </div>
 
     <!--MOBILE TOGGLER-->
-    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
-      <span class="navbar-toggler-icon"></span>
+    <button class="navbar-toggler d-lg-none align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <p>Menu</p>
     </button>
 
     <!--MOBILE OFFCANVAS-->
-    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" style="background-color: #000;">
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" >
       <div class="offcanvas-header">
         <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
       </div>
@@ -57,18 +57,18 @@
   </div>
 </nav>
 
-  <div class="bg-lines"></div>
   <div class="pt-3"></div>
 
    <main class="d-flex flex-column vh-100 pt-5">
     <div class="container-fluid pt-5">
-    <div class="row w-100">
-      <div class="col-lg-5">
-        <h5 class="fw-bold">Essays</h5>
-        <br>
-        <p class="para-n">What Future Are We Planning For?, July 2026, <a href="what-future-are-we-planning-for.html">click here</a></p>
-        <p class="para-n">Who Are We Becoming Better For?, June 2026, <a href="who-are-we-becoming-better-for.html">click here</a></p>
-         </div>
+    <div class="row w-100 text-center">
+      <div class="col-lg-4"></div>
+      <div class="col-lg-4">
+        <h4 class="mb-4">Essays</h4>
+        <p class="para-n linked"><a href="what-future-are-we-planning-for.html">What Future Are We Planning For?, July 2026, <span class="material-symbols-outlined">link</span></a></p>
+        <p class="para-n linked"><a href="who-are-we-becoming-better-for.html">Who Are We Becoming Better For?, June 2026, <span class="material-symbols-outlined">link</span></a></p>
+      </div>
+      <div class="col-lg-4"></div>
     </div>
   </div>
   </main>
