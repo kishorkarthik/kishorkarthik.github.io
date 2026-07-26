@@ -35,9 +35,9 @@ body, container-fluid {
         padding: 0%;
     }
 
-    .hero-title { font-size: 20px; font-weight: 400; }
-    .hero-sub { font-size: 20px; }
-    .para-s { font-size: 15px;}
+    .hero-title { font-size: 18px; font-weight: 400; }
+    .hero-sub { font-size: 16px; }
+    .para-s { font-size: 12px;}
     .para-n {font-size: 15px; font-weight: 400;}
 
   /* Desktop Viewport (992px and up) */
