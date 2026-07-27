@@ -36,15 +36,13 @@ body, container-fluid {
     }
 
     .hero-title { font-size: 18px; font-weight: 400; }
-    .hero-sub { font-size: 16px; }
-    .para-s { font-size: 12px;}
+    .hero-sub { font-size: 18px; }
     .para-n {font-size: 15px; font-weight: 400;}
 
   /* Desktop Viewport (992px and up) */
   @media (min-width: 992px) {
     .hero-title { font-size: 32px; }
     .hero-sub { font-size: 32px; }
-    .para-s { font-size: 18px; }
   }
 
    /* The Background Layer */
