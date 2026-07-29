@@ -105,3 +105,18 @@ body, container-fluid {
 .linked span {
    vertical-align: middle;
 }
+
+.project-tagline {
+  color: darkslategrey;
+}
+
+.outlined {
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  padding: 20px;
+}
+
+pre{
+  background-color: #000000;
+  color: whitesmoke;
+}
