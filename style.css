@@ -110,13 +110,33 @@ body, container-fluid {
   color: darkslategrey;
 }
 
-.outlined {
+@media (min-width: 992px) {
+  .outlined {
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 16px;
   padding: 20px;
+}
 }
 
 pre{
   background-color: #000000;
   color: whitesmoke;
 }
+
+.full-width-hr {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+}
+
+#mega-menu-id {
+    display: none;
+}
+
+#mega-menu-id.show {
+    display: flex;
+}
+
+.mega-menu {
+   height: 200px;
+}
+
