@@ -52,28 +52,44 @@
     </div>
 
     <!--MOBILE TOGGLER-->
-    <button class="navbar-toggler d-lg-none align-items-center" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
       <p>Menu</p>
     </button>
 
     <!--MOBILE OFFCANVAS-->
     <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="offcanvasNavbar" >
       <div class="offcanvas-header">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        <button type="button" class="btn-close ms-3" data-bs-dismiss="offcanvas"><p>Close</p></button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link ms-4" href="index.html">Home</a></li>
 
-          <li class="nav-item"><a class="nav-link" href="timewatcher.html">Projects</a></li>
+          <li class="nav-item"><a class="nav-link ms-4" data-bs-toggle="offcanvas" data-bs-target="#projects-offcanvas" href="timewatcher.html">Projects</a></li>
 
-          <li class="nav-item"><a class="nav-link" href="essays.html">Essays</a></li>
-          <li class="nav-item"><a class="nav-link" href="bookshelf.html">Bookshelf</a></li>
-          <li class="nav-item"><a class="nav-link" href="notebook.html">Notebook</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact </a></li>
+          <li class="nav-item"><a class="nav-link ms-4" href="essays.html">Essays</a></li>
+          <li class="nav-item"><a class="nav-link ms-4" href="bookshelf.html">Bookshelf</a></li>
+          <li class="nav-item"><a class="nav-link ms-4" href="notebook.html">Notebook</a></li>
+          <li class="nav-item"><a class="nav-link ms-4" href="contact.html">Contact </a></li>
         </ul>
       </div>
     </div>
+
+    <!--MOBILE PROJECTS OFFCANVAS-->
+    <div class="offcanvas offcanvas-end d-lg-none" tabindex="-1" id="projects-offcanvas" >
+      <div class="offcanvas-header">
+        <button class="nav-link ms-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+      <p>Back</p>
+    </button>
+    </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link ms-4" href="timewatcher.html">TimeWatcher</a></li>
+        </ul>
+      </div>
+    </div>
+
+
   </div>
 
   <!--Projects Mega Menu-->
