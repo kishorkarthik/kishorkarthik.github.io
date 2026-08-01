@@ -9,9 +9,12 @@ body, container-fluid {
       font-optical-sizing: auto;
       font-size: 15px;
       font-weight: 400;
+    }
+
+main {
       margin-left: 5%;
       margin-right: 5%;
-    }
+}
 
     a:link { color: #000000;text-decoration: none; }
     a:visited { color: #000000; text-decoration: none;}
@@ -120,9 +123,10 @@ body, container-fluid {
 }
 
 pre{
-  background-color: #000000;
+  background-color: #0B0B0B;
   color: whitesmoke;
 }
+
 
 .full-width-hr {
     width: 100vw;
@@ -141,3 +145,29 @@ pre{
    height: 200px;
 }
 
+
+
+.footer {
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #0B0B0B;
+  color:#FCF9F4;
+}
+
+.footer h6{
+    margin-bottom:1rem;
+    margin-top: 2rem;;
+}
+
+.footer ul li{
+    margin-bottom:.6rem;
+}
+
+.footer a{
+    text-decoration:none;
+    color: #FCF9F4;
+}
+
+.footer a:hover{
+    text-decoration:underline;
+}
