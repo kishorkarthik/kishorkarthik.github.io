@@ -31,4 +31,28 @@
         <priority>0.8</priority>
     </url>
 
+    <url>
+        <loc>https://kishorkarthik.github.io/essays.html</loc>
+        <lastmod>2026-08-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://kishorkarthik.github.io/what-future-are-we-planning-for.html</loc>
+        <lastmod>2026-08-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://kishorkarthik.github.io/who-are-we-becoming-better-for.html</loc>
+        <lastmod>2026-08-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+
+    <url>
+        <loc>https://kishorkarthik.github.io/why-things-decay.html</loc>
+        <lastmod>2026-08-10</lastmod>
+        <priority>0.8</priority>
+    </url>
+
 </urlset>
